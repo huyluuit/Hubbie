@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kotlin</string>
+    <string name="control_tab_title_1">Điều khiển</string>
+    <string name="control_tab_title_2">Thông kê</string>
+    <string name="users_tab_title_1">Quản lý người dùng</string>
+    <string name="users_tab_title_2">Thông kê</string>
+    <string name="devices_tab_title_1">Quản lý thiết bị</string>
+    <string name="devices_tab_title_2">Thống kê</string>
+
+    <!-- Toast Message -->
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="login_failed">Email hoặc mật khẩu không đúng!</string>
+    <string name="email_pwd_empty">Email hoặc Mật khẩu còn trống!</string>
+    <string name="timeout_request">Kết nối máy chủ thất bại! Vui lòng thử lại</string>
+    <string name="email_empty">Email còn trống!</string>
+    <string name="phone_empty">Điện thoại còn trống!</string>
+    <string name="fullname_empty">Họ và tên còn trống!</string>
+    <string name="pwd_empty">Mật khẩu còn trống!</string>
+    <string name="confirmPwd_empty">Xác thực còn trống!</string>
+    <string name="pwd_confirm_mismatch">Mật khẩu và xác thực mật khẩu không khớp!</string>
+    <string name="adminId_mismatch">Admin Id không đúng!</string>
+
+    <!-- Role -->
+    <string name="admin">admin</string>
+    <string name="room_admin">roomAdmin</string>
+    <string name="client">client</string>
+
+    <string name="configure_result_success">EspTouch Success</string>
+    <string name="configure_result_success_item">BSSID = %1$s, InetAddress = %2$s</string>
+
+</resources>

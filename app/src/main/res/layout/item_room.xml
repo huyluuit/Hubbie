@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_dialog"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- IV Room -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivEditRoom"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_more"
+                android:scaleY="1.5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_room" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="RoomName" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="3dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvTotalPower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Điện năng tiêu thụ: " />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="3dp"
+                android:background="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Load1 Frame -->
+                <LinearLayout
+                    android:id="@+id/llLoad1Frame"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_tv"
+                    android:gravity="top|center"
+                    android:orientation="vertical"
+                    android:scaleX="0.9"
+                    android:scaleY="0.9">
+
+                    <TextView
+                        android:id="@+id/tvLoadName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LoadName1"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginVertical="5dp"
+                        android:background="@drawable/ic_device" />
+
+                    <Switch
+                        android:id="@+id/swLoad1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <!-- Load2 Frame -->
+                <LinearLayout
+                    android:id="@+id/llLoad2Frame"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_tv"
+                    android:gravity="top|center"
+                    android:orientation="vertical"
+                    android:scaleX="0.9"
+                    android:scaleY="0.9">
+
+                    <TextView
+                        android:id="@+id/tvLoadName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LoadName2"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginVertical="5dp"
+                        android:background="@drawable/ic_device" />
+
+                    <Switch
+                        android:id="@+id/swLoad2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <!-- Load3 Frame -->
+                <LinearLayout
+                    android:id="@+id/llLoad3Frame"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_tv"
+                    android:gravity="top|center"
+                    android:orientation="vertical"
+                    android:scaleX="0.9"
+                    android:scaleY="0.9">
+
+                    <TextView
+                        android:id="@+id/tvLoadName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LoadName3"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginVertical="5dp"
+                        android:background="@drawable/ic_device" />
+
+                    <Switch
+                        android:id="@+id/swLoad3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

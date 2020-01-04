@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorItem"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="ADD DEVICE"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etSsid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_tv"
+            android:hint="SSID"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_tv"
+            android:hint="SSID Password"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnStartSmartConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Start Smartconfig" />
+
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="State"
+            android:textAlignment="center"
+            android:textColor="@color/bgBottomNavigation"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvBSSID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_tv"
+            android:padding="10dp"
+            android:text="BSSID: " />
+
+        <TextView
+            android:id="@+id/tvIp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_tv"
+            android:padding="10dp"
+            android:text="Device IP: " />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="OK" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

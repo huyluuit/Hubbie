@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:esptouch-debug:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/esptouch-debug/build/.transforms/1280314e9133c568146c1992dc69a0b0/esptouch-debug/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/esptouch-debug/build/.transforms/1280314e9133c568146c1992dc69a0b0/esptouch-debug/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

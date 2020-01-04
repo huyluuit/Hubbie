@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576662313988",
+    "firebase_url": "https://hubbie-viper.firebaseio.com",
+    "project_id": "hubbie-viper",
+    "storage_bucket": "hubbie-viper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576662313988:android:33a294a28a3be212aa6951",
+        "android_client_info": {
+          "package_name": "com.example.hubbie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576662313988-mej3j2mgri63qm449dh52so9n8lig280.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hubbie",
+            "certificate_hash": "455f0d3bc2d0064309d29c40ba468d73de9f5588"
+          }
+        },
+        {
+          "client_id": "576662313988-c26ma81tvbbjsbd67e6gl5uf9fcjj3oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALmV1v5Av18JGyrQCZWYPIt7kpXLa-J7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576662313988-c26ma81tvbbjsbd67e6gl5uf9fcjj3oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

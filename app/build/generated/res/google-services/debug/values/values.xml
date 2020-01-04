@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">576662313988-c26ma81tvbbjsbd67e6gl5uf9fcjj3oe.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://hubbie-viper.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">576662313988</string>
+    <string name="google_api_key" translatable="false">AIzaSyALmV1v5Av18JGyrQCZWYPIt7kpXLa-J7o</string>
+    <string name="google_app_id" translatable="false">1:576662313988:android:33a294a28a3be212aa6951</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyALmV1v5Av18JGyrQCZWYPIt7kpXLa-J7o</string>
+    <string name="google_storage_bucket" translatable="false">hubbie-viper.appspot.com</string>
+    <string name="project_id" translatable="false">hubbie-viper</string>
+</resources>
